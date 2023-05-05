@@ -1,10 +1,11 @@
 package model;
 
 import view.ConsoleView;
+import view.View;
 
 public class CurrencyLoader {
-    private ConsoleView view;
-    public CurrencyLoader(ConsoleView view){
+    private View view;
+    public CurrencyLoader(View view){
         this.view = view;
     }
 }
